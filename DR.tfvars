@@ -1,0 +1,13 @@
+location               = "East US"
+resource_group_name    = "mdgl_rg_datalake_DR_CUS_002"
+vnet_name              = "mdgl-vnet-datalake"
+address_space          = ["10.0.0.0/16"]
+subnet_name            = "default"
+subnet_prefix          = "10.0.1.0/24"
+storage_account_name   = "mdglstoragedl02cus"
+synapse_workspace_name = "mdgl-syn-datalake-stage-CUS-002"
+synapse_admin_login    = "synadmin"
+synapse_admin_password = "ReplaceWithSecurePassword123!"
+data_factory_name      = "mdgl-adf-datalake-DR-CUS-002"
+function_app_name      = "mdgl-func-datalake-cus-002"
+app_service_plan_name  = "mdgl-asp-datalake-cus-002"
